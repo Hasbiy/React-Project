@@ -1,0 +1,71 @@
+header {
+    width: 98vw;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #2b2e2c;
+    margin-top: 15px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 7px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    transition: color .4s ease-in-out;
+}
+
+header li a.active, header li a:hover {
+    color: #508d71;
+}
+
+/* NavBar Style Below */
+
+nav {
+    width: 98vw;
+    margin: auto;
+    padding: 10px 5%;
+    background-color: #2b2e2c;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    transition: color .4s ease-in-out;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: #508d71;
+}
+
+/* SideBar/Main styles below */
+
+aside, main {
+    background-color: #2b2e2c;
+    color: white;
+}
+
+/* Footer Styles Below */
+
+footer {
+    width: 98vw;
+    margin: auto;
+    background-color: #2b2e2c;
+    color: white;
+    text-align: center;
+    padding: 5px 5%;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
